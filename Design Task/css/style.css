@@ -1,0 +1,54 @@
+body{
+  background-color: #f2f2f2;
+}
+/* Navbar Starts- Logo image and Icon */
+.logo {
+  width:60%;
+  margin-right:50px;
+}
+/* Navbar Ends */
+/* Content Section Starts- Row and Column */
+.row {
+  margin:15px;
+}
+.col-sm-7 {
+  margin:20px;
+}
+.button-center {
+  margin: 0 auto;
+}
+p{
+  font-size:18px;
+}
+.text {
+  color:#00597A;
+  font-family: 'Roboto', sans-serif;
+}
+li {
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+}
+/* Form-SideBar*/
+.sidebar {
+  border:1px solid rgb(190, 182, 182);
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+
+}
+/* Form-SideBar Ends*/
+
+/* Content Section - Ends */
+
+/* Image- Thumbnail */
+
+.image-thumbnail {
+  margin-top:5px;
+}
+/* Image- Thumbnail Ends */
+/* footer */
+.footer-text {
+  border: 1px solid #7690cf;
+  background-color:#E5F1F6;
+  font-size:12px;
+  padding:1em;
+}

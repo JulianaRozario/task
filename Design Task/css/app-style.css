@@ -1,0 +1,143 @@
+body
+{
+margin:0;
+}
+.menu
+{
+    background-color: #00597A;
+ height:7%;
+}
+/* main-Header starts */
+.main1-header1-logo
+{
+margin-left:5px;
+margin-bottom: 5px;
+margin-right: 62%;
+font-family: 'Roboto', sans-serif;
+}
+/* .main-header direct child */
+.main1-header1 > div
+{
+vertical-align: middle;
+display: inline-block;
+} 
+/* moving the list to right */
+.main1-nav1
+{
+vertical-align: middle;
+display: inline-block;
+}
+.main1-nav1-items1
+{ 
+    font-family: 'Roboto', sans-serif;
+margin:0;
+padding:0;
+list-style-type: none;
+text-decoration: none;
+}
+.main1-header1
+{
+padding: 15px 10px;
+background-color: white;
+}
+.main1-nav1-item1
+{
+display: inline-block;
+margin: 0 15px;
+}
+.main1-nav1-item1 a
+{
+text-decoration: none;
+color:black;
+font-weight: bold;
+font-size:18px;
+}
+
+/* Main-header ends */
+/* Navbar container */
+.navbar1 {
+
+overflow: hidden;
+background-color: #00597A;
+font-family: 'Roboto', sans-serif;
+}
+/* Links inside the navbar */
+.navbar1 a {
+float: left;
+font-size: 16px;
+color:black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+/* The dropdown container */
+.dropdown1 {
+float: left;
+overflow: hidden;
+}
+/* Dropdown button */
+.dropdown1 .dropbtn1{
+font-size: 16px; 
+border: none;
+outline: none;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+
+}
+/* Dropdown content (hidden by default) */
+.dropdown1-content1 {
+display: none;
+position: absolute;
+background-color:#ffff;
+width:auto;
+height:100%;
+}
+/* Show the dropdown menu on hover */
+.dropdown1:hover .dropdown1-content1{
+display: block;
+}
+/* Create three equal columns that floats next to each other */
+.column1 {
+width:auto;
+padding: 10px;
+background-color:#ffff;
+height: auto;
+}
+@media screen and (max-width: 600px) {
+    .navbar1{
+      display:none;
+    }
+    
+  }
+.image
+{
+    width:100%;
+}
+.logo-image
+{
+    width:60%;
+}
+.logo-text
+{
+  
+    font-size: 24px;
+    color:#00597A;
+}
+
+.content-col
+{
+    margin:20px;
+}
+#large
+{
+width:100%;
+
+}
+.footer-text {
+    border: 1px solid #7690cf;
+    background-color:#E5F1F6;
+    font-size:12px;
+    padding:1em;
+  }
+  

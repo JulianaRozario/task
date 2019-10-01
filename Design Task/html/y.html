@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"  href="../css/bootstrap.min.css">
+<style>
+.row
+{
+    height:20%;
+    background-color: aqua;
+}
+#toggle
+{
+    background-color: aliceblue;
+}
+</style>
+</head>
+
+<body>  
+    <div class="row">
+        <div class="col-sm-3">
+                <div class="but">
+                        <button type="button"  onclick="myFunction();" >Medicare </button> </a> 
+                       </div>
+              <div id="toggle" style="display: none;">        
+                    <a href="#">Understanding Medicare </a> <br/>
+                    <a href="#">Signing Up for Medicare Part A & Part B</a>
+                    <a href="#">Delaying Retirement </a> <br/>
+                    <a href="#">Delaying Retirement </a> <br/>
+                    <a href="#">Delaying Retirement </a> <br/>
+            </div>
+            </div> 
+            <div class="col-sm-3">
+                    <div class="but">
+                            <button type="button"  onclick="myFunction();" >Medicare </button> </a> 
+                           </div>
+                  <div id="toggle" style="display: none;">        
+                        <a href="#">Understanding Medicare </a> <br/>
+                        <a href="#">Signing Up for Medicare Part A & Part B</a>
+                        <a href="#">Delaying Retirement </a> <br/>
+                        <a href="#">Delaying Retirement </a> <br/>
+                        <a href="#">Delaying Retirement </a> <br/>
+                </div>
+                </div> 
+                <div class="col-sm-3">
+                        <div class="but">
+                                <button type="button"  onclick="myFunction();" >Medicare </button> </a> 
+                               </div>
+                      <div id="toggle" style="display: none;">        
+                            <a href="#">Understanding Medicare </a> <br/>
+                            <a href="#">Signing Up for Medicare Part A & Part B</a>
+                            <a href="#">Delaying Retirement </a> <br/>
+                            <a href="#">Delaying Retirement </a> <br/>
+                            <a href="#">Delaying Retirement </a> <br/>
+                    </div>
+                    </div> 
+    </div>
+    
+</body>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("toggle");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+</body>
+</html>
